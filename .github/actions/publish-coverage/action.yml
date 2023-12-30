@@ -14,7 +14,8 @@ runs:
         shell: bash
         run: |
             ls -la
-            coverage combine .coverage.unit .coverage.docker .coverage.integration
+            # coverage combine .coverage.unit .coverage.docker .coverage.integration
+            coverage combine .coverage.unit
 
       - name: Print coverage report
         shell: bash
