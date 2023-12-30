@@ -2,13 +2,15 @@
 git+https://github.com/owasp-sbot/OSBot-Utils.git@dev
 python-dotenv
 
-# for docker
+# for OWSBot-AWS
 git+https://github.com/owasp-sbot/OSBot-AWS.git@dev
-git+https://github.com/owasp-sbot/OSBot-Docker.git@dev
 boto3
+
+# for OSBot-Docker
+git+https://github.com/owasp-sbot/OSBot-Docker.git@dev
 docker
 
-# for fastapi
+# for OSBot-Fast-API
 git+https://github.com/owasp-sbot/OSBot-Fast-API.git@dev
 fastapi
 httpx

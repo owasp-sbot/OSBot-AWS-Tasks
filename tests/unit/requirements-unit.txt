@@ -2,6 +2,10 @@
 git+https://github.com/owasp-sbot/OSBot-Utils.git@dev
 python-dotenv
 
+# for OWSBot-AWS
+git+https://github.com/owasp-sbot/OSBot-AWS.git@dev
+boto3
+
 # for testing
 pytest
 coverage
