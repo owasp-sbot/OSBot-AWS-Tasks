@@ -1,0 +1,21 @@
+# for OWSBot-Utils
+git+https://github.com/owasp-sbot/OSBot-Utils.git@dev
+python-dotenv
+
+# for docker
+git+https://github.com/owasp-sbot/OSBot-AWS.git@dev
+git+https://github.com/owasp-sbot/OSBot-Docker.git@dev
+boto3
+docker
+
+# for fastapi
+git+https://github.com/owasp-sbot/OSBot-Fast-API.git@dev
+fastapi
+httpx
+requests
+uvicorn
+
+# for testing
+pytest
+coverage
+beautifulsoup4
