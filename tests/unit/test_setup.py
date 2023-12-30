@@ -1,4 +1,7 @@
 import os
+
+import setuptools
+
 import osbot_aws_tasks
 from unittest                       import TestCase
 from unittest.mock                  import patch
