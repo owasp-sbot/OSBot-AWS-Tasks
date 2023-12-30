@@ -16,8 +16,7 @@ class test_ECS_Actions(TestCase):
         assert type(self.ecs_actions.ecs) is ECS
 
     def test_ecs_setup(self):
-        #STS().check_current_session_credentials()
-        return
+        STS().check_current_session_credentials()
         self.ecs          = ECS()
         self.logs         = Cloud_Watch_Logs()
         self.account_id   = self.ecs.account_id

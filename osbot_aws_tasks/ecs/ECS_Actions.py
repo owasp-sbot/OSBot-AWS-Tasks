@@ -5,4 +5,3 @@ class ECS_Actions:
 
     def __init__(self):
         self.ecs = ECS()
-        pass
